@@ -1,157 +1,422 @@
-<!DOCTYPE html>
+<!-- <!doctype html>
+
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
 
-        <title>Caitlyn : Home</title>
-        <link rel="icon" type="image/icon" href="assets/images/tabicon.ico">
+  <title>Caitlyn Stewart</title>
 
-        <link rel="stylesheet" type="text/css" href="">
-        <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-        <link href="assets/css/bootstrap-theme.min.css" rel="stylesheet">
-        <link href="assets/css/font-awesome.min.css" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,700,700i" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Crimson+Text:400,700,700i|Josefin+Sans:700" rel="stylesheet">
-        <link href="assets/css/main.css" rel="stylesheet">
-        <link rel="icon" href="assets/images/logo.png">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-        
-        
-    </head>
+  <link href="https://fonts.googleapis.com/css?family=Lora|Staatliches&display=swap" rel="stylesheet">
+  <link href="css/index.css" rel="stylesheet">
 
-    <body>
-        <div id="index">                                           <!-- Index starts here -->
-            <div class="container main">
-                <div class="row home">
-                    <div id = "index_left" class="col-md-6 left, mainPic">
-                        <img class="img-responsive img-rabbit" src="assets/images/randomLogo.png">
-                    </div>
-                    <div id = "index_right" class="col-md-6 text-center right">
-                        <div class="logo">
-                            <img src="assets/images/logo.png">
-                            <h4>I am caitlyn</h4>
-                        </div>
-                        <p class="home-description">
-                            Hi, I am Caitlyn. <br>
-                            Web developer from Missouri, US. <br>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        </p>
-                        <div class="btn-group-vertical custom_btn animated slideinright">
-                            <div id="about" class="btn btn-rabbit">About</div>
-                            <div id="work" class="btn btn-rabbit">Work</div>
-                            <div id="contact" class="btn btn-rabbit">Contact</div>
-                        </div>      
-                        <div class="social">
-                            <a href="#"><i class="fa fa-pinterest" aria-hidden="true" style="color:lightgray;"></i></a>
-                            <a href="https://twitter.com/MarloJoss"><i class="fa fa-twitter" aria-hidden="true" style="color:lightgray;"></i></a>
-                            <a href="https://www.linkedin.com/in/caitlyn-stewart-73b584193/"><i class="fa fa-linkedin" aria-hidden="true" style="color:lightgray;"></i></a>
-                        </div>
-                    </div>
-                </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js" integrity="sha256-lPE3wjN2a7ABWHbGz7+MKBJaykyzqCbU96BJWjio86U=" crossorigin="anonymous"></script>
+  <script src="js/index.js" async></script>
 
-                
-            </div>
-        </div>                                                      <!-- index ends here -->
+  <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <![endif]-->
+<!-- </head>
 
-        <div id="about_scroll" class="pages ">                      <!-- about strats here  -->
-            <div class="container main">
-                <div class="row">
-                    <div class="col-md-6 left" id="about_left">
-                        <img class="img-responsive img-rabbit" src="assets/images/about.jpg">
-                    </div>
+<body>
 
-                    <div class="col-md-6 right" id="about_right">
-                        <a href="#index" class="btn btn-rabbit back"> <i class="fa fa-angle-left" aria-hidden="true"></i> Back to home </a>
-                        <div id="watermark">
-                            <h2 class="page-title" text-center>About</h2>
-                            <div class="marker">a</div>
-                        </div>
-                        <p class='subtitle'>Hi, I am Caitlyn Stewart. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.
-                        </p>
-                        <p class="info">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."</p>  
-                    </div>
-                </div>
-            </div>            
-        </div>                                                                <!-- About ends here -->
+  
+     
+  <div class="container home">
+   <header>
+      <div class="headBox">
+        <h1>Caitlyn Stewart</h1>
+        <nav>
+          <a href="index.html">Portfolio</a>
+          <a href="#">About</a>
+          <a href="#">Blog</a>
+          <a href="#">Contact</a>
+        </nav>
+      </div>
+    </header>
+      
+    <div class="headBoxTwo">
+      <div class="imgBox">
+        <img id = "wellHello" src="img/WellHello2.png" alt="Yellow Bus">
+      </div>
+     <div class="headerContent">
+       <h2>Yar Pirate Ipsum!</h2>
+       <p>Prow scuttle parrel provost Sail ho shrouds spirits boom mizzenmast yardarm. Pinnace holystone mizzenmast quarter crow's nest nipperkin grog yardarm hempen halter furl. Swab barque interloper chantey doubloon starboard grog black jack gangway rutters.</p>
+      </div>
+    </div>
+
+    <section class="content-section">
+      <div class="text-content">
+        <h2>Yar Pirate Ipsum</h2>
+        <p>Cog splice the main brace rutters jury mast bucko. Dance the hempen jig tackle Letter of Marque mizzen landlubber or just lubber. Nipperkin square-rigged rigging pirate no prey, no pay. Haul wind furl provost jury mast grapple.</p> 
+      </div>
+      <div class="img-content">
+        <img src="https://picsum.photos/id/248/550/200" alt="Let's go on an adventure!">
+      </div>
+    </section>
+    <section class="content-section inverse-content">
+      <div class="img-content">
+          <img src="https://picsum.photos/id/119/550/200" class="img-fluid rounded" alt="Lets have fun!">
+      </div>
+      <div class="text-content">
+        <h2>Yar Pirate Ipsum</h2>
+        <p>Gibbet swing the lead overhaul knave scuppers. Hearties dance the hempen jig Chain Shot aft starboard. Aye coxswain Chain Shot cable bilge. Ye belay grog pink holystone.</p> 
+      </div>
+     
+    </section>
+  </div><!-- container -->
+
+  <!-- <footer class="footer">
+    <p>© 2019</p>
+  </footer>
+
+</body>
+</html>  -->
 
 
-        
-        <div id="work_scroll" class="pages">                                  <!-- Work starts here -->
-            <div class="container main">
-                <div class="row">
-                    <div class="col-md-6" id="work_left">
-                        <div id="owl-demo" class="owl-carousel owl-theme">
-                            <div class="item"><a href="https://github.com/cstewart94/responsive-web-design-I"><img class="img-responsive img-rabbit workImg" src="assets/images/desktop-view.png"></a></div>
-                            <div class="item"><img class="img-responsive img-rabbit workImg" src="assets/images/home.jpg"></div>
-                            <div class="item"><img class="img-responsive img-rabbit workImg" src="assets/images/contact.jpg"></div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-6" id="work_right">
-                        <a href="#index" class="btn btn-rabbit back"> <i class="fa fa-angle-left" aria-hidden="true"></i> Back to Home </a>
-                        <div id="watermark">
-                            <h2 class="page-title" text-center>Work</h2>
-                            <div class="marker">w</div>
-                        </div>
-                        <p class='subtitle'>This is a selection of my web design and development work. I've been involve in many different types of projects.
-                        </p>
-                        <p class="info">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
-                    </div>
-                </div>
-            </div>    
-        </div>                                                                 <!-- Work ends here  -->
 
 
-        <div id="contact_scroll" class="pages">                             <!-- Contact starts here -->
-            <div class="container main">
-                <div class="row">
-                    <div class="col-md-6 left" id="contact_left">
-                        <img class="img-responsive img-rabbit" src="assets/images/contact.jpg">
-                    </div>
 
-                    <div class="col-md-6 right" id="contact_right">
-                        <a href="#index" class="btn btn-rabbit back"> <i class="fa fa-angle-left" aria-hidden="true"></i> Back to Home </a>
-                        <div id="watermark">
-                            <h2 class="page-title" text-center>Contact</h2>
-                            <div class="marker">c</div>
-                        </div>
-                        <p class='subtitle'>I'm based in Missouri. Drop me a line.
-                        </p>
-                        <!-- form -->
-                        <form class="form_edit"> 
-                            <div class="form-group">
-                                <input type="name" class="form-control" id="exampleInputName" placeholder="Name">
-                            </div>
+<!doctype html>
 
-                            <div class="form-group">
-                            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
-                            </div>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
 
-                            <div class="form-group">
-                            <textarea class="form-control" rows="5" placeholder="Message"></textarea>
-                            </div>
-                            <button type="submit" class="btn btn-rabbit submit">Send Message</button>
-                        </form>
-                    </div>
-                </div>
-            </div>
-       
-            <footer class="text-center">
-                <div class="container bottom">
-                    <div class="row">
-                        <div class="col-sm-12">
-                            <p>Made with <i class="fa fa-heartbeat" aria-hidden="true"></i> by <a href="https://themewagon.com/">Themewagon</a></p>
-                        </div>
-                    </div>
-                </div>
-            </footer>
-            
-        </div>                                                              <!-- Contact ends here -->
-        
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-        <script src="assets/js/bootstrap.min.js"></script>
-        <script src="assets/js/script.js"></script>
-    </body>
+  <title>Caitlyn Stewart</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Lora|Staatliches&display=swap" rel="stylesheet">
+  <link href="css/index.css" rel="stylesheet">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js" integrity="sha256-lPE3wjN2a7ABWHbGz7+MKBJaykyzqCbU96BJWjio86U=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+  <script src="js/index.js" async></script>
+
+  <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+
+  
+     
+  <div class="container home">
+   <header>
+      <div class="headBox">
+        <h1>Caitlyn Stewart</h1>
+        <nav>
+          <a href="index.html">Portfolio</a>
+          <a href="#">About</a>
+          <a href="#">Blog</a>
+          <a href="#">Contact</a>
+        </nav>
+      </div>
+    </header>
+      
+    <div class="headBoxTwo">
+      <div class="imgBox">
+        <!--<img id = "wellHello" src="img/WellHello2.png" alt="Well-Hello2" filter="url(#turb)>-->
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="940.98724mm"
+   height="559.22058mm"
+   viewBox="0 0 940.98724 559.22058"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="WellHello.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.11789508"
+     inkscape:cx="3437.9514"
+     inkscape:cy="1415.001"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     showborder="false"
+     showguides="false"
+     inkscape:window-width="1366"
+     inkscape:window-height="715"
+     inkscape:window-x="-8"
+     inkscape:window-y="1072"
+     inkscape:window-maximized="1"
+     inkscape:object-paths="true"
+     inkscape:snap-global="true" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(262.06799,-22.39553)">
+    <g
+       id="g888">
+      <g
+         inkscape:export-ydpi="200"
+         inkscape:export-xdpi="200"
+         transform="translate(23.776328,-11.888164)"
+         id="g1039">
+        <g
+           id="g1024">
+          <g
+             class="letters"
+             id="g959"
+             inkscape:export-filename="C:\Users\14177\Desktop\Personal Projects\Portfolio\img\w.png"
+             inkscape:export-xdpi="200"
+             inkscape:export-ydpi="200">
+            <path class = 'w'
+               style="fill:#e96423;fill-opacity:1;stroke:#e96423;stroke-width:0.39687499;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+               d="M -170.76533,92.30521 -161.19487,9.4464647 522.01543,643.99818 Z"
+               id="path848"
+               inkscape:connector-curvature="0"
+               sodipodi:nodetypes="cccc" />
+            <path class = 'w'
+               style="fill:#f2a47e;fill-opacity:1;stroke:#f2a47e;stroke-width:0.39687499;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+               d="M -236.93973,92.30521 522.01544,643.99818 -170.76533,92.30521 -204.1852,48.905445 Z"
+               id="path846"
+               inkscape:connector-curvature="0"
+               sodipodi:nodetypes="ccccc" />
+            <path class = 'w'
+               inkscape:connector-curvature="0"
+               id="path834"
+               style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:104.81452179px;line-height:1.25;font-family:Impact;-inkscape-font-specification:'Impact Bold';letter-spacing:5.29166651px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.40376592"
+               d="m -161.19487,9.4464647 -9.57046,82.8587453 h -26.92014 c -2.45659,-12.726503 -4.62316,-27.19309 -6.49973,-43.399763 -0.85298,6.92622 -2.84896,21.392808 -5.98794,43.399763 h -26.76659 l -9.62165,-82.8587453 h 20.9322 l 2.20069,28.9161153 2.25188,27.892537 c 0.78474,-14.432469 2.76366,-33.368686 5.93676,-56.8086523 h 22.41638 c 0.30707,2.4224713 1.09182,11.5323263 2.35424,27.3295673 l 2.35423,31.475064 c 1.19417,-20.028035 3.19015,-39.629579 5.98794,-58.8046313 z"
+               sodipodi:nodetypes="cccccccccccccccc" />
+          </g>
+          <g class = "letters"
+             id="g954">
+            <path
+               style="fill:#ffb6af;fill-opacity:1;stroke:#ffb6af;stroke-width:0.39687499;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+               d="M -151.60417,92.30521 520.4629,643.99818 -115.67653,26.028449 h -14.38129 z"
+               id="path850"
+               inkscape:connector-curvature="0"
+               sodipodi:nodetypes="ccccc" />
+            <path
+               style="fill:#ff5a4b;fill-opacity:1;stroke:#ff7f73;stroke-width:0.39687499;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+               d="M -114.24352,92.30521 V 75.723225 h -15.8143 V 57.503512 h 13.46007 V 41.740391 h -13.46007 V 26.028449 h 14.38129 V 9.4464647 L 520.46289,643.99818 Z"
+               id="path852"
+               inkscape:connector-curvature="0"
+               sodipodi:nodetypes="cccccccccccc" />
+            <path
+               inkscape:connector-curvature="0"
+               id="path836"
+               style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:104.81452179px;line-height:1.25;font-family:Impact;-inkscape-font-specification:'Impact Bold';letter-spacing:5.29166651px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.40376592"
+               d="m -151.60417,9.4464647 h 35.92764 V 26.02845 h -14.38129 v 15.711942 h 13.46007 v 15.763121 h -13.46007 v 18.219712 h 15.8143 V 92.30521 h -37.36065 z"
+               sodipodi:nodetypes="ccccccccccccc" />
+          </g>
+          <g class = "letters"
+             id="g949">
+            <path
+               style="fill:#db872b;fill-opacity:1;stroke:#e19a4d;stroke-width:0.39687499;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+               d="M -68.059867,92.30521 V 75.723225 H -81.161682 V 9.4464647 L 522.73072,643.99818 Z"
+               id="path856"
+               inkscape:connector-curvature="0"
+               sodipodi:nodetypes="cccccc" />
+            <path
+               inkscape:connector-curvature="0"
+               id="path838"
+               style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:104.81452179px;line-height:1.25;font-family:Impact;-inkscape-font-specification:'Impact Bold';letter-spacing:5.29166651px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.40376592"
+               d="M -81.161683,9.4464647 V 75.723225 h 13.101815 V 92.30521 H -102.70803 V 9.4464647 Z"
+               sodipodi:nodetypes="ccccccc" />
+            <path
+               style="fill:#eab780;fill-opacity:1;stroke:#eab780;stroke-width:0.39687499;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+               d="M -102.70803,92.30521 522.73072,643.99818 -68.059867,92.30521 Z"
+               id="path854"
+               inkscape:connector-curvature="0"
+               sodipodi:nodetypes="cccc" />
+          </g>
+          <g class = "letters"
+             id="g936">
+            <path
+               style="fill:#1d4447;fill-opacity:1;stroke:#295f63;stroke-width:0.39687499;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+               d="M -22.848609,92.30521 522.90065,643.99818 -35.950423,9.4464647 V 75.723225 h 13.101814 z"
+               id="path862"
+               inkscape:connector-curvature="0"
+               sodipodi:nodetypes="cccccc" />
+            <path
+               inkscape:connector-curvature="0"
+               id="path840"
+               style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:104.81452179px;line-height:1.25;font-family:Impact;-inkscape-font-specification:'Impact Bold';letter-spacing:5.29166651px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.40376592"
+               d="M -35.950425,9.4464647 V 75.723225 H -22.84861 V 92.30521 H -57.49677 V 9.4464647 Z" />
+            <path
+               style="fill:#3a878d;fill-opacity:1;stroke:#3a878d;stroke-width:0.39687499;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+               d="M -57.496769,92.30521 522.90065,643.99818 -22.848609,92.30521 Z"
+               id="path858"
+               inkscape:connector-curvature="0"
+               sodipodi:nodetypes="cccc" />
+          </g>
+          <g class = "letters"
+             id="g927">
+            <path
+               style="fill:#e96423;fill-opacity:1;stroke:#ed7e47;stroke-width:0.39687499;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+               d="M 91.516983,10.958366 V 93.817111 L 544.59651,643.99818 Z"
+               id="path877"
+               inkscape:connector-curvature="0"
+               sodipodi:nodetypes="cccc" />
+            <path
+               inkscape:connector-curvature="0"
+               id="path864"
+               style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:104.81452179px;line-height:1.25;font-family:Impact;-inkscape-font-specification:'Impact Bold';letter-spacing:5.29166651px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.40376592"
+               d="M 91.516984,10.958366 V 93.817112 H 69.970639 V 59.015415 H 63.52209 V 93.817112 H 41.975745 V 10.958366 H 63.52209 v 29.632622 h 6.448549 V 10.958366 Z"
+               sodipodi:nodetypes="ccccccccccccc" />
+            <path
+               style="fill:#f2a47e;fill-opacity:1;stroke:#f2a47e;stroke-width:0.39687499;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+               d="M 41.975745,93.817111 544.5965,643.99818 91.516983,93.817111 H 69.970639 V 59.015415 H 63.52209 v 34.801696 z"
+               id="path875"
+               inkscape:connector-curvature="0"
+               sodipodi:nodetypes="cccccccc" />
+          </g>
+          <g class = "letters"
+             id="g922">
+            <path
+               style="fill:#ffb6af;fill-opacity:1;stroke:#ffb6af;stroke-width:0.39687499;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+               d="M 105.40672,93.817111 547.407,643.99818 141.33435,27.540352 h -14.38129 z"
+               id="path879"
+               inkscape:connector-curvature="0"
+               sodipodi:nodetypes="ccccc" />
+            <path
+               style="fill:#ff5a4b;fill-opacity:1;stroke:#ff7f73;stroke-width:0.39687499;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+               d="M 142.76737,93.817111 126.95306,77.235126 V 59.015415 27.540352 L 141.33435,10.958366 547.40701,643.99818 Z"
+               id="path881"
+               inkscape:connector-curvature="0"
+               sodipodi:nodetypes="ccccccc" />
+            <path
+               inkscape:connector-curvature="0"
+               id="path866"
+               style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:104.81452179px;line-height:1.25;font-family:Impact;-inkscape-font-specification:'Impact Bold';letter-spacing:5.29166651px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.40376592"
+               d="m 105.40672,10.958366 h 35.92763 v 16.581985 h -14.38129 v 15.711943 h 13.46007 v 15.763121 h -13.46007 v 18.219712 h 15.81431 v 16.581985 h -37.36065 z"
+               sodipodi:nodetypes="ccccccccccccc" />
+          </g>
+          <g class = "letters"
+             id="g917">
+            <path
+               style="fill:#db872b;fill-opacity:1;stroke:#e19a4d;stroke-width:0.39687499;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+               d="m 175.84921,10.958366 v 66.27676 L 188.95102,93.817111 548.3974,643.99818 Z"
+               id="path887"
+               inkscape:connector-curvature="0"
+               sodipodi:nodetypes="ccccc" />
+            <path
+               inkscape:connector-curvature="0"
+               id="path868"
+               style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:104.81452179px;line-height:1.25;font-family:Impact;-inkscape-font-specification:'Impact Bold';letter-spacing:5.29166651px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.40376592"
+               d="m 175.84921,10.958366 v 66.276761 h 13.10181 V 93.817112 H 154.30287 V 10.958366 Z"
+               sodipodi:nodetypes="ccccccc" />
+            <path
+               style="fill:#eab780;fill-opacity:1;stroke:#eab780;stroke-width:0.39687499;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+               d="M 154.30287,93.817111 548.3974,643.99818 188.95102,93.817111 Z"
+               id="path883"
+               inkscape:connector-curvature="0"
+               sodipodi:nodetypes="cccc" />
+          </g>
+          <g class = "letters"
+             id="g912">
+            <path
+               style="fill:#3a878d;fill-opacity:1;stroke:#3a878d;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+               d="M 199.51412,93.817111 548.40391,643.99818 234.16228,93.817111 V 77.235126 Z"
+               id="path889"
+               inkscape:connector-curvature="0"
+               sodipodi:nodetypes="ccccc" />
+            <path
+               inkscape:connector-curvature="0"
+               id="path870"
+               style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:104.81452179px;line-height:1.25;font-family:Impact;-inkscape-font-specification:'Impact Bold';letter-spacing:5.29166651px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.40376592"
+               d="m 221.06047,10.958366 v 66.276761 h 13.10181 V 93.817112 H 199.51412 V 10.958366 Z"
+               sodipodi:nodetypes="ccccccc" />
+            <path
+               style="fill:#1d4447;fill-opacity:1;stroke:#1d4447;stroke-width:0.39687499;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+               d="M 221.06047,10.958366 548.40391,643.99818 234.16228,93.817111 V 77.235126 h -13.10181 z"
+               id="path891"
+               inkscape:connector-curvature="0"
+               sodipodi:nodetypes="cccccc" />
+          </g>
+          <g class = "letters"
+             id="g907">
+            <path
+               sodipodi:nodetypes="cccc"
+               inkscape:connector-curvature="0"
+               id="path893"
+               d="M 244.68006,83.07144 550.9465,643.99818 264.80057,24.721114 Z"
+               style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:104.81452179px;line-height:1.25;font-family:Barcelony;-inkscape-font-specification:'Barcelony Bold';letter-spacing:19.52638435px;word-spacing:0px;fill:#92bba9;fill-opacity:1;stroke:#92bba9;stroke-width:0.39687499;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+            <path
+               sodipodi:nodetypes="cccc"
+               inkscape:connector-curvature="0"
+               id="path895"
+               d="M 262.66072,19.195583 289.10585,19.775455 550.9465,643.99818 Z"
+               style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:104.81452179px;line-height:1.25;font-family:Barcelony;-inkscape-font-specification:'Barcelony Bold';letter-spacing:19.52638435px;word-spacing:0px;fill:#5a9078;fill-opacity:1;stroke:#6ea48c;stroke-width:0.39687499;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+            <path
+               inkscape:connector-curvature="0"
+               id="path872"
+               style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:104.81452179px;line-height:1.25;font-family:Impact;-inkscape-font-specification:'Impact Bold';letter-spacing:5.29166651px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.40376592"
+               d="m 292.32182,59.476026 c 0,8.325112 -0.20472,14.227753 -0.61415,17.707922 -0.37531,3.446051 -1.60361,6.602087 -3.68488,9.468109 -2.04716,2.866022 -4.82788,5.066717 -8.34217,6.602086 -3.51429,1.535369 -7.60861,2.303054 -12.28296,2.303054 -4.43551,0 -8.42746,-0.716506 -11.97587,-2.149517 -3.51429,-1.46713 -6.3462,-3.650766 -8.49571,-6.550907 -2.14952,-2.900141 -3.42899,-6.056178 -3.83842,-9.468109 -0.40943,-3.411931 -0.61415,-9.382811 -0.61415,-17.912638 V 45.299452 c 0,-8.325111 0.18766,-14.210692 0.56297,-17.656743 0.40943,-3.480169 1.63772,-6.653265 3.68488,-9.519287 2.08128,-2.866022 4.87906,-5.066718 8.39335,-6.602087 3.51429,-1.5353689 7.60861,-2.3030533 12.28295,-2.3030533 4.43551,0 8.41041,0.7335651 11.9247,2.2006953 3.54841,1.433011 6.39738,3.599588 8.54689,6.499729 2.14952,2.900141 3.42899,6.056177 3.83842,9.468108 0.40943,3.411931 0.61415,9.382811 0.61415,17.912638 z m -21.54634,-27.22721 c 0,-3.855482 -0.22178,-6.312072 -0.66533,-7.369771 -0.40943,-1.091818 -1.27948,-1.637727 -2.61013,-1.637727 -1.12593,0 -1.99598,0.443551 -2.61013,1.330653 -0.58003,0.852983 -0.87004,3.411931 -0.87004,7.676845 v 38.691298 c 0,4.810823 0.18766,7.779203 0.56297,8.90514 0.40943,1.125937 1.33065,1.688906 2.76366,1.688906 1.46713,0 2.40542,-0.648267 2.81485,-1.944801 0.40943,-1.296533 0.61415,-4.384331 0.61415,-9.263392 z"
+               sodipodi:nodetypes="sccsscccssccsscccssscscsscssss" />
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
+  </div>
+
+     <div class="headerContent">
+       <h2>Yar Pirate Ipsum!</h2>
+       <p>Prow scuttle parrel provost Sail ho shrouds spirits boom mizzenmast yardarm. Pinnace holystone mizzenmast quarter crow's nest nipperkin grog yardarm hempen halter furl. Swab barque interloper chantey doubloon starboard grog black jack gangway rutters.</p>
+      </div>
+
+    <section class="content-section">
+      <div class="text-content">
+        <h2>Yar Pirate Ipsum</h2>
+        <p>Cog splice the main brace rutters jury mast bucko. Dance the hempen jig tackle Letter of Marque mizzen landlubber or just lubber. Nipperkin square-rigged rigging pirate no prey, no pay. Haul wind furl provost jury mast grapple.</p> 
+      </div>
+      <div class="img-content">
+        <img src="https://picsum.photos/id/248/550/200" alt="Let's go on an adventure!">
+      </div>
+    </section>
+    <section class="content-section inverse-content">
+      <div class="img-content">
+          <img src="https://picsum.photos/id/119/550/200" class="img-fluid rounded" alt="Lets have fun!">
+      </div>
+      <div class="text-content">
+        <h2>Yar Pirate Ipsum</h2>
+        <p>Gibbet swing the lead overhaul knave scuppers. Hearties dance the hempen jig Chain Shot aft starboard. Aye coxswain Chain Shot cable bilge. Ye belay grog pink holystone.</p> 
+      </div>
+     
+    </section>
+  </div><!-- container -->
+
+  <footer class="footer">
+    <p>© 2019</p>
+  </footer>
+
+</body>
 </html>
